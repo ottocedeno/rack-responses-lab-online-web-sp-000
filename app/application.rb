@@ -8,7 +8,7 @@ class Application
     check_time
   end
 
-  def check_time
+  def check_hour
 
     x = Time.now
     binding.pry

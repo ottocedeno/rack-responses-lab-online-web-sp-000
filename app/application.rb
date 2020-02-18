@@ -6,5 +6,6 @@ class Application
 
   def check_time
     binding.pry
+    Time.now
   end
 end

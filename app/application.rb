@@ -5,6 +5,6 @@ class Application
   end
 
   def check_time
-
+    binding.pry
   end
 end

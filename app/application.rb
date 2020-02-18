@@ -6,6 +6,7 @@ class Application
     resp = Rack::Response.new
 
     if check_hour >= 12
+      resp.write "Good Morning!"
     check_time
   end
 

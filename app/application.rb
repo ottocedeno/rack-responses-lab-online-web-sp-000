@@ -10,7 +10,5 @@ class Application
 
   def check_hour
     Time.now.hour
-    x = Time.now
-    binding.pry
   end
 end

@@ -9,7 +9,7 @@ class Application
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
-    check_time
+    end
   end
 
   def check_hour

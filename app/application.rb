@@ -5,6 +5,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
+    if check_hour >= 12
     check_time
   end
 

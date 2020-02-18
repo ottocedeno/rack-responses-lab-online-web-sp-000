@@ -7,6 +7,8 @@ class Application
 
     if check_hour >= 12
       resp.write "Good Morning!"
+    else
+      resp.write "Good Afternoon!"
     check_time
   end
 

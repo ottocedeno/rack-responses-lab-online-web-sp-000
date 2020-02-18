@@ -5,7 +5,8 @@ class Application
   end
 
   def check_time
-    binding.pry
+
     x = Time.now
+    binding.pry
   end
 end
